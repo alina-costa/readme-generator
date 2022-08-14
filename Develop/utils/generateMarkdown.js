@@ -23,27 +23,27 @@
 function generateMarkdown(data) {
   return `
   
-  # ${data.title}
+  # ${data.Title}
 
   ## Description
-  ${data.description}
+  ${data.Description}
 
   ## Installation
-  ${data.installation}
+  ${data.Installation}
 
   ## Usage
-  ${data.usage}
+  ${data.Usage}
 
   ## Contribution
-  ${data.contribution}
+  ${data.Contribution}
 
   ## Tests
-  ${data.tests}
+  ${data.Test}
 
   ## Questions
   If you would like to contact me with any questions, please reach out.
-  Email: ${data.email}
-  Github: https://github.com/${data.github}
+  Email: ${data.Email}
+  Github: https://github.com/${data.Github}
 `;
 }
 
