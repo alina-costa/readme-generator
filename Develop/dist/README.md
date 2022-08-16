@@ -1,23 +1,23 @@
 
   
-  # 1
+  # Perimeter Calculator
 
   ## Description
-  2
+  When given a length and width measurement, the application will calculate the perimeter automatically.
 
   ## Installation
-  3
+  Open in browser
 
   ## Usage
-  4
+  The user will be prompted to enter length and width. When the user presses "enter", the application will run.
 
   ## Contribution
-  5
+  Please email me if you would like to contribute. 
 
   ## Tests
-  6
+  N/A
 
   ## Questions
   If you would like to contact me with any questions, please reach out.
-  Email: 8
-  Github: https://github.com/7
+  Email: personhuman3@gmail.com
+  Github: https://github.com/person-human
