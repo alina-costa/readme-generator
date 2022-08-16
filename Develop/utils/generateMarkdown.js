@@ -23,7 +23,7 @@
 function generateMarkdown(data) {
   return `
   
-  # ${data.Title}
+  # ${data.title}
 
   ## Description
   ${data.Description}
@@ -47,4 +47,4 @@ function generateMarkdown(data) {
 `;
 }
 
-module.exports = generateMarkdown();
+module.exports = generateMarkdown;

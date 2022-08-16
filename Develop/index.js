@@ -7,7 +7,7 @@ const promptUser = () => {
   return inquirer.prompt([
     {
       type: "input",
-      name: "Title",
+      name: "title",
       message: "What is the title of your project? (Required)",
       validate: (titleInput) => {
         if (titleInput) {
@@ -71,9 +71,9 @@ const promptUser = () => {
 };
 
 // TODO: Create a function to write README file
-const writeFile = (fileContent) => {
+const writeFile = (pageMD) => {
   return new Promise((resolve, reject) => {
-    fs.writeFile("./README.md", fileContent, (err) => {
+    fs.writeFile("./dist/README.md", pageMD, (err) => {
       if (err) {
         reject(err);
         return;
@@ -83,15 +83,18 @@ const writeFile = (fileContent) => {
         ok: true,
         message: "File created!",
       });
+      console.log("file made");
     });
   });
 };
 
-// TODO: Create a function to initialize app
-function init() {
-  promptUser();
-  writeFile();
-}
-
-// // Function call to initialize app
-init();
+promptUser()
+  .then((data) => {
+    return generateMarkdown(data);
+  })
+  .then((pageMD) => {
+    return writeFile(pageMD);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
