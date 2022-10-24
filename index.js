@@ -1,6 +1,6 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
-const generateMarkdown = require("./utils/generateMarkdown.js");
+const generateMarkdown = require("./utils/generateMarkdown");
 // const writeFile = require("./utils/generateMarkdown.js");
 
 const promptUser = () => {
@@ -44,7 +44,7 @@ const promptUser = () => {
     {
       type: "input",
       name: "Contribution",
-      message: "Please include the contribution guidlines.",
+      message: "Please include the contribution guidelines.",
     },
     {
       type: "input",
