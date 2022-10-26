@@ -10,7 +10,7 @@ This application requires the installation of Node.js and Inquirer.
 
 ## Usage
 
-The user must run "node index.js" from the command line to begin running the program.
+The user must clone this repository to their machine and run "node index.js" from the command line to begin running the program.
 
 ## Contribution
 
@@ -27,3 +27,6 @@ If you would like to contact me with any questions, please reach out.
 Email: alinangcosta@gmail.com
 
 Github: https://github.com/alina-costa
+
+
+<img width="450" alt="Screen Shot 2022-10-25 at 12 16 12 AM copy" src="https://user-images.githubusercontent.com/102388724/198155958-61869d62-c468-46e7-a653-be1b54620e10.png">
