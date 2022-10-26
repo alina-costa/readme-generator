@@ -29,4 +29,4 @@ Email: alinangcosta@gmail.com
 Github: https://github.com/alina-costa
 
 
-<img width="450" alt="Screen Shot 2022-10-25 at 12 16 12 AM copy" src="https://user-images.githubusercontent.com/102388724/198155958-61869d62-c468-46e7-a653-be1b54620e10.png">
+<img width="1257" alt="Screen Shot 2022-10-26 at 7 23 51 PM" src="https://user-images.githubusercontent.com/102388724/198157106-6f095fc9-3718-4d11-867d-b8e3b2837722.png">
