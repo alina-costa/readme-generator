@@ -10,7 +10,9 @@ This application requires the installation of Node.js and Inquirer.
 
 ## Usage
 
-The user must clone this repository to their machine and run "node index.js" from the command line to begin running the program.
+The user must clone this repository to their machine and run "node index.js" from the command line to begin running the program. 
+
+After inputing their answer to each question, the user will hit the enter key to proceed to the next question. When presented with the list of licenses used, the user will hit the down-arrow button on their keyboard to move to the next selection, and hit the spacebar to select a license. More than one license can be selected. The program is finished running when it reads "file made".  
 
 ## Contribution
 
